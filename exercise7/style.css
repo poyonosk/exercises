@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.top-image {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.top-image h1 {
+  padding: 20px 0 0 20px;
+}
+
+.menu {
+  width: 840px;
+  margin: 20px auto;
+  
+}
+
+.menu-box1 {
+  padding: 30px 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.menu-box2 {
+  padding: 30px 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.menu-box3 {
+  padding: 30px 0;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.menu-box4 {
+  padding: 30px 0;
+  border-bottom: 1px solid #d1d1d1;
+}
