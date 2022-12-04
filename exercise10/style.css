@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+li {
+  list-stle: none
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #ff9a4b;
+  width: 100%;
+  height: 50px;
+}
+
+.blog {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.step-num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #ff9a4b;
+}
+
+.blog-box1 {
+  max-width: 640px;
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.blog-image1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.blog-title {
+  padding-top: 15px;
+}
+
+.blog-text {
+  padding-top: 5px;
+}
+
+.blog-box2 {
+  max-width: 640px;
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  background-color: #eeeeee;
+  display: inline-block;
+  position: relative;
+}
+
+.blog-image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.blog-box3 {
+  max-width: 640px;
+  width: 300px;
+  padding: 10px;
+  background-color: #eeeeee;
+  display: inline-block;
+  position: relative;
+}
+
+.blog-image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+footer {
+  background-color: #aaaaaa;
+  width: 100%;
+  height: 50px;
+}
+
+
+/* タブレット向けレイアウト */
+@media screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+  }
+
+  .blog {
+    width: 90%;
+    display: block;
+  }
+
+  .blog-box1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .blog-box2 {
+    width: 100%;
+    margin:0 auto 20px auto;
+  }
+
+  .blog-box3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* タブレット縦向けレイアウト */
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .blog {
+    width: 90%;
+    display: block;
+  }
+
+  .blog-box1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .blog-box2 {
+    width: 100%;
+    margin:0 auto 20px auto;
+  }
+
+  .blog-box3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .blog {
+    width: 90%;
+    display: block;
+  }
+
+  .blog-box1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .blog-box2 {
+    width: 100%;
+    margin:0 auto 20px auto;
+  }
+
+  .blog-box3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
