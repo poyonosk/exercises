@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lists {
+  width: 960px;
+  margin: 50px 0;
+}
+
+.list1 {
+  font-size: 12px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.list2 {
+  font-size: 12px;
+  padding: 20px;
+}
+
+.list3 {
+  font-size: 12px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.list4 {
+  font-size: 12px;
+  padding: 20px;
+}
+
+.list5 {
+  font-size: 12px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.list6 {
+  font-size: 12px;
+  padding: 20px;
+}
+
+.list7 {
+  font-size: 12px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.blog {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.blog-box1 {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.blog-box2 {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.blog-box3 {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+}
+
+.blog-box4 {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.blog-box5 {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.blog-box6 {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+}
+
+.blog-box7 {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.blog-box8 {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+  margin-right: 5%;
+}
+
+.blog-box9 {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+  margin-bottom: 40px;
+}
